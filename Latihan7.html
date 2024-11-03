@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xbook Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Main container -->
+    <div class="flex items-center justify-center min-h-screen p-4">
+
+        <!-- Responsive grid for logo and form -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center bg-white p-6 rounded-lg shadow-lg max-w-4xl w-full">
+            
+            <!-- Logo Section -->
+            <div class="text-center lg:text-right mt-4 text-center">
+                <h1 class="text-5xl lg:text-6xl font-bold text-blue-600">
+                    <span class="text-blue-900">X</span>book
+                </h1>
+                <p class="text-gray-600 mt-4 lg:mt-0">Connect and share your passion with the other people in your life.</p>
+            </div>
+
+            <!-- Login Form Section -->
+            <div>
+                <form>
+                    <!-- Email input -->
+                    <div class="mb-4">
+                        <input type="email" placeholder="Email address or phone number" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- Password input -->
+                    <div class="mb-4">
+                        <input type="password" placeholder="Password" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <!-- Log In button -->
+                    <div class="mb-4">
+                        <button type="submit" class="w-full bg-blue-500 text-white p-3 rounded hover:bg-blue-600">Log In</button>
+                    </div>
+                    <!-- Forgot password link -->
+                    <div class="text-center mb-4">
+                        <a href="#" class="text-blue-500">Forgot password?</a>
+                    </div>
+                    <!-- Divider -->
+                    <hr class="my-4">
+                    <!-- Create new account button -->
+                    <div class="mb-4">
+                        <button type="button" class="w-full bg-green-500 text-white p-3 rounded hover:bg-green-600">Create new account</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
